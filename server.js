@@ -6,7 +6,7 @@ app.use(express.json());
 
 app.get("/", (req, res) => {
   res.json({
-    message: "Welcome to HookFlow!",
+    message: "Welcome to HookFlow basics!",
   });
 });
 
